@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assembler</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="grid-container" id="codeSection">
+            <div class="grid-item section editor-container top-row">
+                <div id="editor" class="editor"></div>
+            </div>
+
+
+            <div class="grid-item section top-row">
+                <h2>Memory contents <span class="status-good" id="memoryOutStatus" /></h2>
+                <table id="memoryOut" class="code invisibleTable"></table>
+            </div>
+            <div class="grid-item section">
+                <h2>Symbol table</h2>
+                <table id="symbolTableOut"></table>
+            </div>
+            <div class="grid-item section">
+                <input type="file" id="fileBtn"><label for="fileBtn" class="fileInputLabel">Open file</label>
+                <input type="text" id="filenameIn" placeholder="Project name"><br/>
+                <a id="downloadAssemblyBtn" class="button"><button>Download assembly (.asm)</button></a>
+                <a id="downloadBtn" style="display:none" class="button"><button>Download memory (.cdm)</button></a>
+            <h2>Assembler log <span class="status-good" id="assemblerLogStatus" /></h2>
+                <div id="logOut" class="code logContainer"></div>
+            </div>
+        </div>
+
+        <script src="ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
