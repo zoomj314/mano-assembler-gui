@@ -29,7 +29,6 @@
     height: 100%
 }
 .section {
-    /* margin: 10pt; */
     padding: 10pt;
     background-color: #d4d4d4;
     outline: 2px solid black;
@@ -47,7 +46,6 @@
 .memOp {
     font-weight: 100;
     color: #393939;
-    /* white-space: preserve; */
 }
 .logcontainer {
     line-height: 15pt;
@@ -88,8 +86,6 @@ input[type="file"] {
     margin: 3px;
 }
 .editor {
-    /* width: 800px;
-    height: 500px; */
     width: 100%;
     height: 100%;
     font-size: 13pt;
