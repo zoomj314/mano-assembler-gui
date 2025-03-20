@@ -28,5 +28,8 @@ Download the code and open index.html in a browser. Click the "Open file" button
     - Program never halts
     - Loading an instruction to AC
 
+# About the code
+index.html contains the layout, style.css contains the style information, and script.js contains the actual logic.
+
 # Credits
 The code editor uses ace [[https://ace.c9.io]]. The ace-min directory in this repository is taken straight from [[https://github.com/ajaxorg/ace-builds]].
